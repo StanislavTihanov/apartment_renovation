@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="/app/images/tsit.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Главная</title>
+</head>
+<body>
+<div class="wrapper">
+<header class="header" id="header">
+    <div class="container">
+        <div class="header__wrapper">
+            <a class="header__logo" href="index.html">
+                <img class="header__logo-img" src="images/logo.svg" alt="logo">
+                <p class="header__logo-title">Ремонт квартир <br> и офисов</p>
+            </a>
+            <div class="header__burger-inner">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+            <div class="header__form">
+                <div class="header__box">
+                    <p class="header__box-title">Работаем без выходных</p>
+                    <a class="header__box-phone" href="tel:89251294426">+7(000)<p class="header__box-phone-bold">000 00-00</p></a> 
+                </div>
+                    <a class="header__form-button" href="#popup-main">Обратный звонок</a>
+            </div>
+        </div>
+    </div>
+    <div class="header__inner">
+        <div class="container">
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="index.html">Главная</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="index.html">Услуги</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="repair.html">РЕМОНТ</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="works.html">ПРИМЕРЫ РАБОТ</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a class="header__menu-link" href="about.html">О компании</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+    </div>
+</header>
+<div class="popup-main" id="popup-main">
+    <a href="#header" class="popup-main__closeall"></a>
+    <div class="popup-main__body">
+        <div class="popup-main__content">
+            <a class="popup-main__body-close" href="#header"> 
+                <span class="popup-main__body-close1"></span>
+                <span class="popup-main__body-close2"></span>
+            </a>
+            <h2 class="popup-main__content-title">Введите Ваш номер телефона</h2>
+            <p class="popup-main__content-subtitle">и наш менеджер свяжется с Вами</p>
+            <div class="popup-main__box">
+                <input class="popup-main__box-input" type="text" placeholder="Ваш номер телефона">
+                <a class="popup-main__box-button" href="#popup">Отправить</a>
+            </div>
+            <div class="popup-main__check">
+                <input class="popup-main__check-box" type="checkbox" checked>
+                <span class="popup-main__check-style">Я принимаю условия обработки  <a class="popup-main__check-link" href="#">персональных данных</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="popup" id="popup">
+    <a href="#header" class="popup-main__closeall"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a class="popup-main__body-close" href="#header">
+                    <span class="popup-main__body-close1"></span>
+                    <span class="popup-main__body-close2"></span>
+                </a>
+                <p class="popup__content-title">Спасибо!</p>
+                <p class="popup__content-subtitle">В скором времени мы свяжемся с Вами</p>
+            </div>
+        </div>
+</div>
+<main class="main">
+    <section class="homepage">
+            <div class="container">
+                <div class="homepage__content">
+                    <h1 class="homepage__content-tilte">Ремонт и отделка квартир <br> и коммерческих помещений</h1>
+                    <a class="homepage__content-button" href="#popup-main">Оставить заявку</a>
+                </div>
+            </div>
+            <div class="homepage__foto _ibg">
+                <picture>
+                    <source type="image/webp" srcset="images/homepage.webp">
+                    <img class="homepage__foto-img" src="images/homepage.jpg" alt="img homepage">
+                </picture>
+            </div>
+    </section>
+    <section class="services">
+        <div class="container">
+            <div class="services__services-part">
+                <h2 class="services__title">Наши услуги</h2>
+            </div>
+            <div class="services__content">
+                <div class="services__block">
+                    <div class="services__item">
+                        <div class="services__item-foto">
+                            <picture>
+                                <source type="image/webp" srcset="images/services1.webp">
+                                <img class="services__item-foto-img" src="images/services1.jpg" alt="img services">
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="services__block-title">Ремонт квартир</p>
+                </div>
+                <div class="services__block">
+                    <div class="services__item">
+                        <div class="services__item-foto">
+                            <picture>
+                                <source type="image/webp" srcset="images/services2.webp">
+                                <img class="services__item-foto-img" src="images/services2.jpg" alt="img services">
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="services__block-title">Ремонт офисов</p>
+                </div>
+                <div class="services__block">
+                    <div class="services__item">
+                        <div class="services__item-foto">
+                            <picture>
+                                <source type="image/webp" srcset="images/services3.webp">
+                                <img class="services__item-foto-img" src="images/services3.jpg" alt="img services">
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="services__block-title">Ремонт санузлов</p>
+                </div>
+                <div class="services__block">
+                    <div class="services__item">
+                        <div class="services__item-foto">
+                            <picture>
+                                <source type="image/webp" srcset="images/services4.webp">
+                                <img class="services__item-foto-img" src="images/services4.jpg" alt="img services">
+                            </picture>
+                        </div>
+                    </div>
+                    <p class="services__block-title">Электромонтажные работы</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="objects">
+        <div class="container">
+            <div class="objects__part">
+                <h2 class="objects__title">Наши объекты</h2>
+            </div>
+            <div class="objects__box">
+                <button class="objects__box-title" data-filter=".all">ВСЕ</button>
+                <button class="objects__box-title" data-filter=".apartments">РЕМОНТ КВАРТИР</button>
+                <button class="objects__box-title" data-filter=".offices">РЕМОНТ ОФИСОВ</button>
+                <button class="objects__box-title" data-filter=".bathroom">САНУЗЛЫ</button>
+            </div>
+            <div class="objects__content">
+                <div class="objects__content-block mix all mix alls">
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects1.webp">
+                            <img class="objects__item-foto-img" src="images/objects1.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects3.webp">
+                            <img class="objects__item-foto-img" src="images/objects3.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects5.webp">
+                            <img class="objects__item-foto-img" src="images/objects5.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                </div>
+                <div class="objects__content-block mix apartments mix alls">
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects2.webp">
+                            <img class="objects__item-foto-img" src="images/objects2.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                </div>
+                <div class="objects__content-block mix offices mix alls">
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/object6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects6.webp">
+                            <img class="objects__item-foto-img" src="images/objects6.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                </div>
+                <div class="objects__content-block mix bathroom mix alls">
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                    <div class="objects__item">
+                        <picture>
+                            <source type="image/webp" srcset="images/objects4.webp">
+                            <img class="objects__item-foto-img" src="images/objects4.jpg" alt="img objects">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <div class="objects__block">
+                <button class="objects__block-button1" data-filter=".alls">Посмотреть все</button>
+                <a class="objects__block-button2" href="#">Разместить объект</a>
+            </div>
+        </div>
+    </section>
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__part">
+                <h2 class="advantages__title">Преимущества</h2>
+            </div>
+            <div class="advantages__content">
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                            <img class="advantages__item-foto-img" src="images/advantages1.svg" alt="img advantages">
+                            <img class="advantages__item-foto-circle" src="images/circle1.svg" alt="img circle">
+                        </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">Работаем без предоплаты</p>
+                        <p class="advantages__box-subtitle">Мы доверяем своим клиентам, работу начинаем без <br> предоплаты</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                            <img class="advantages__item-foto-img" src="images/advantages2.svg" alt="img advantages">
+                            <img class="advantages__item-foto-circle" src="images/circle2.svg" alt="img circle">
+                        </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">Доставка материалов бесплатно</p>
+                        <p class="advantages__box-subtitle">Доставку материалов берем <br> на себя, так как есть свой транспорт</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                        <picture>
+                            <source type="image/webp" srcset="images/advantages3.webp">
+                            <img class="advantages__item-foto-img" src="images/advantages3.png" alt="img advantages">
+                        </picture>
+                        <img class="advantages__item-foto-circle" src="images/circle3.svg" alt="img circle">
+                    </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">Работаем по договору</p>
+                        <p class="advantages__box-subtitle">Работаем официально, <br> заключаем договор, <br> в котором прописаны сроки.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                            <img class="advantages__item-foto-img" src="images/advantages4.svg" alt="img advantages">
+                            <img class="advantages__item-foto-circle" src="images/circle4.svg" alt="img circle">
+                    </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">Строгое соблюдение сроков</p>
+                        <p class="advantages__box-subtitle">Не срываем сроков, своя сплоченная бригада, <br> работаем отвественно.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                        <picture>
+                            <source type="image/webp" srcset="images/advantages5.webp">
+                            <img class="advantages__item-foto-img" src="images/advantages5.png" alt="img advantages">
+                        </picture>
+                        <img class="advantages__item-foto-circle" src="images/circle5.svg" alt="img circle">
+                    </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">Свой электроинструмент</p>
+                        <p class="advantages__box-subtitle">Имеем весь необходимый инструмент, ни от кого <br> не зависим.</p>
+                    </div>
+                </div>
+                <div class="advantages__item">
+                    <div class="advantages__item-foto">
+                            <img class="advantages__item-foto-img" src="images/advantages6.svg" alt="img advantages">
+                            <img class="advantages__item-foto-circle" src="images/circle6.svg" alt="img circle">
+                        </div>
+                    <div class="advantages__box">
+                        <p class="advantages__box-title">За качество отвечаем</p>
+                        <p class="advantages__box-subtitle">Работаем отвественно, <br> наши работы говорят <br> сами за себя.</p>
+                    </div>
+                    <a class="advantages__box-call" href="tel:89251294426"><img src="images/call.svg" alt="call"></a> 
+                </div>
+            </div>
+        </div>
+        <div class="advantages__block">
+            <a class="advantages__block-button" href="tel:89251294426">Позвонить</a> 
+        </div>
+    </section>
+</main>
+<footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <a class="footer__block-logo" href="index.html">
+                    <img class="footer__block-img" src="images/logo.svg" alt="logo">
+                </a>
+                <div class="footer__block footer__block--none">
+                    <p class="footer__block-title">Строительная компания</p>
+                    <p class="footer__block-text">текст о компании текст о компании текст о компании текст о компании текст о компании текст о компании текст о компании текст о компании </p>
+                </div>
+                <div class="footer__block footer__block--none">
+                    <p class="footer__block-title2">Время работы</p>
+                    <p class="footer__block-text footer__block-text--mod">Пн-пт: 9:00-19:00</p>
+                    <a href="" class="footer__block-link">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__block footer__block--none">
+                    <a class="header__box-phone header__box-phone--call" href="tel:89251294426">+7(000)<p class="header__box-phone-bold header__box-phone-bold--call">000 00-00</p></a> 
+                    <a class="footer__block-call" href="#popup-main">Обратный звонок</a>
+                </div>
+            </div>
+        </div>
+</footer>
+</div>
+<script src="js/main.min.js"></script>
+</body>
+</html>
